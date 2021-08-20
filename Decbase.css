@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    padding: 0;
+    margin:0;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+button,
+.sub-color{
+    background-color: rgb(170, 110, 110);
+    color: white;
+}
+.styles{
+    padding: 0;
+    font-size: 1.5rem;
+    color: #808880; 
+}
+p{
+    font-size: 1.3rem;
+    line-height: 25px;
+}
+
+
+/*  Nav-bar */
+
+.nav-bar h3{
+    font-size: 1.5rem;
+    color: #808880;
+}
+.nav-bar .logo{
+    justify-content: flex-start;
+}
+
+.nav-bar .flex  {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar img{
+    width: 5rem;
+    margin: 0;
+}
+.nav-bar li{
+    list-style: none;
+    margin-left: 2rem;
+}
+.nav-bar a{
+    text-decoration: none;    
+    color: #333;
+}
+.nav-bar a:hover{
+    color: #808880;
+    border-bottom: 2px solid #333;
+}
+.nav-bar button{
+    margin-left: 3rem;
+}
+
+/* Hero */
+
+.hero .hero-left  {
+    justify-content: center;
+    align-self: center;
+    margin-right: 50px;
+}
+.hero h1{
+    font-size: 4rem;
+}
+.hero h2{
+    color:#808080;
+}
+.hero p {
+   
+    margin-bottom: 20px;
+}
+
+.hero .hero-right  {
+    position: relative;
+ 
+}
+
+.hero img{
+    width: 35rem;
+    height: 30rem;
+    margin: 0 30px;
+}
+.hero .hero-right::after{
+        content:"";
+        position: absolute;
+        left: 57px;
+        top: 19px;
+        height: 98%;
+        width: 90%;
+        border: 2px solid rgb(170, 110, 110);
+        border-top-left-radius: 25%;
+        border-bottom-right-radius: 25%;
+        z-index: -1;
+}
+
+/* End Hero */
+
+/* Services */
+    .services img{
+        width: 3rem;
+    }
+    .services .flex{
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    
+    .services h1{
+        font-size:4rem;
+        margin-bottom: 1.5rem;
+    }
+    .services p{
+        font-size: 1rem;
+    }
+    .services .services-cards{
+        padding: 0;
+        margin: 0;
+    }
+    
+   
+    .services img{
+        width: 3rem;
+        height: 3rem;
+        padding-top: 20px;
+    }
+    
+    .services .sub-head{
+        padding: 5px 15px;
+    }
+    .services .container{
+        padding-bottom: 40px;
+    }
+
+/* End of Services */
+
+/* About Us */
+    .about img{
+        width: 35rem;
+        height: 30rem;
+        margin: 0 30px;
+    }
+    .about .img{
+        position: relative;
+        width: 40rem;
+    }
+    .about .img::after{
+        content:"";
+        position: absolute;
+        left: 1px;
+        top: -15px;
+        height: 98%;
+        width: 76%;
+        border: 2px solid rgb(170, 110, 110);
+        border-top-left-radius: 25%;
+        border-bottom-right-radius: 25%;
+        z-index: -1;
+    }
+    .about p{
+        margin-bottom: 20px;
+    }
+    .about-right h1{
+        font-size: 3.5rem;
+    }
+
+
+
+    .about .about-ext h1{
+    font-size: 15rem;
+    font-family: "montserrat",sans-serif;
+    font-weight: 800;
+    background-image: url(./Images/interior2.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    }
+
+    .about .flex{
+        justify-content: space-between;
+
+    }    
+    .about .about-ext-left{
+       align-self: flex-start;
+       margin-top: -5.5rem;
+    }
+
+    .about .about-ext h3,
+    .about .about-ext h2{
+        font-size: 3rem;
+        font-family: "montserrat",sans-serif;      
+    }
+    .about .about-ext h3{
+        margin-top: -2rem;
+    }
+    .about .about-ext button{
+        margin-top: 20px;
+    }
+
+
+
+    .about .about-ext .img{
+        margin-right: -3.1rem;
+    }
+/* End About Us */
+
+
+/* Success work */
+.box-2{
+    position: relative;
+    left: -115px;
+    top: 72px;
+}
+.box-3{
+    position: relative;
+    left: -232px;
+    top: -10px;
+}
+.box-4{
+    position: relative;
+    left: -347px;
+    top: 71px;
+}
+#completed .completed-header h2{
+    font-size: 3rem;
+    margin-top: 0rem;
+}
+
+#completed {
+    background-color: rgb(248, 240, 240);
+    height: 37rem;
+    margin-top: 5rem;    
+}
+#completed .completed-header{
+    width: 43rem;
+    margin-left: 23rem;
+}
+#completed .completed-header .center{
+    margin-left: 5rem;
+    margin-top: 3rem;
+    padding-top: 5rem;
+}
+#completed .completed-chart {
+    display: flex;
+    margin-left: 199px;
+    margin-right: -105px;
+    margin-top: 7rem;
+}
+#completed .completed-chart .chart-box{
+    width: 8rem;
+    height: 8rem;
+    margin-left: 7rem;
+    background-color: white;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    box-shadow: 2px 2px 15px -6px grey;
+}
+#completed .completed-chart .chart-box .chart-title{
+    margin: 2.3rem;
+}
+#completed .completed-chart .chart-box .chart-title h2{
+    font-weight: 800;
+    font-size: 2rem;
+}
+#completed .completed-chart .chart-box .chart-title h6{
+    font-size: 13px;
+    font-weight: 200;
+    color: grey;
+    width: 6rem;
+}
+
+#completed .completed-chart .chart-line{
+    border-top: 2px solid grey;
+    width: 97px;
+    position: relative;
+    left: 0px;
+    top: 43px;
+}
+#completed .completed-chart .chart-line2{
+    border-left: 2px solid grey;
+    height: 97px;
+    position: relative;
+    left: 0px;
+    top: 44px;
+}
+#completed .completed-chart .chart-line3{
+    border-bottom: 2px solid grey;
+    width: 97px;
+    position: relative;
+    left: -2px;
+    top: 14px;
+}
+
+#completed .completed-chart .chart-line4{
+    border-top: 2px solid grey;
+    width: 97px;
+    position: relative;
+    left: -115px;
+    top: 138px;
+}
+#completed .completed-chart .chart-line5{
+    border-left: 2px solid grey;
+    height: 97px;
+    position: relative;
+    left: -116px;
+    top: 43px;
+}
+#completed .completed-chart .chart-line6{
+    border-bottom: 2px solid grey;
+    width: 97px;
+    position: relative;
+    left: -118px;
+    top: -83px;
+}
+#completed .completed-chart .chart-line7{
+    border-top: 2px solid grey;
+    width: 97px;
+    position: relative;
+    left: -232px;
+    top: 44px;
+}
+#completed .completed-chart .chart-line8{
+    border-left: 2px solid grey;
+    height: 97px;
+    position: relative;
+    left: -232px;
+    top: 44px;
+}
+
+#completed .completed-chart .chart-line9{
+    border-bottom: 2px solid grey;
+    width: 97px;
+    position: relative;
+    left: -234px;
+    top: 13px;
+}    
+/* End of Success work */
+
+
+/* Testimonial */
+
+.testimonial-box h5,
+.testimonial-box h2{
+    text-align: center;
+}
+.testimonial-box .container{
+    margin-bottom: 20rem;
+}
+
+.testimonial-box h2{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.testimonial-box h5{
+    margin-top: 2rem;
+    color: #808080;
+    font-size: 1rem;
+}
+.testimonial-cards .card-item{
+    display: flex;
+    width: 35%;    
+}
+.testimonial-box img{
+    height: 200px;
+    width: 150px;
+    margin-left: -3rem;  
+}
+.testimonial-box .flex{
+    justify-content: space-around;
+}
+.testimonial-box .card-p{
+    padding: 1rem;
+    margin-top: -25px;
+    
+}
+.testimonial-box p{
+    font-size: 1rem;
+    color: #808880;
+}
+.testimonial-box h4{
+    padding: .75rem;
+    
+}
+/*End of Testimonial */
+
+
+/* Blog */
+
+.blog{
+    background-color: rgb(248, 240, 240);
+}
+.blog h4,.blog h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.blog h4{
+    font-weight: lighter;
+    padding-top: 40px;
+}
+.blog h1{
+    padding-bottom: 5rem;
+}
+.blog img{
+    width: 30rem;
+    height: 28rem;
+    margin: 0 30px;
+}
+.blog .blog-img{
+    position: relative;
+    width: 40rem;
+}
+.blog .blog-img::after{
+    content:"";
+        position: absolute;
+        left: 57px;
+        top: 19px;
+        height: 98%;
+        width: 75%;
+        border: 2px solid rgb(170, 110, 110);
+        border-top-left-radius: 25%;
+        border-bottom-right-radius: 25%;
+        z-index: -1;
+}
+.blog .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog p {
+    font-size: 0.95rem;
+    color: #808080;
+   }
+.blog-title{
+    width: 80%;
+    margin: 25px;
+}
+.blog .btn{
+    margin: 15px 25px;
+    width: 12rem;
+}
+
+/* Sign Up */
+
+.sign-up h2,.sign-up h6{
+    text-align: center;
+    font-family:  monospace;
+}
+.sign-up h6{
+    font-size: 14px;
+    color: rgb(133, 119, 119);
+    margin: 15px 0;
+}
+.sign-up h2{
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    width: 23%;
+    margin: 0  auto;
+    padding: 12x;
+
+}
+.cta-button {
+    position: relative;
+    width  :40%;
+    margin: 50px auto;
+}
+input {
+    width: 25rem;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border: none;
+    background-color: rgb(185, 176, 176);
+    margin-bottom: 15rem;
+}
+::placeholder{
+    padding: 12px;
+    font-size: 11px;
+}
+::-moz-placeholder{
+    padding: 12px;
+    font-size: 11px;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.sign-up button{
+    position: absolute;
+    top: 0px;
+    border-bottom-right-radius: 9px;
+    border-top-left-radius: 0px;
+    width: 6rem;
+    height: 30px;
+    border: none;
+    margin-left: -10px;
+    
+}
+
+
+/* End Sign up */
+
+
+/* Footer */
+ .footer{
+    background-color: rgba(178, 178, 182, 0.1);
+    height:20rem;
+}
+ .footer .info{
+    display: flex;
+    padding-top: 5rem;
+    justify-content: space-between;
+}
+ 
+ .footer .info .info-item p{
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    font-family: monospace;
+    font-size: 13px;
+    color: rgb(133, 119, 119);
+}
+ .footer .info .info-item .social-item{
+    display: inline-block;
+    padding: 10px;
+}
+/* End Footer */
+
+/* Copy */
+.copy p{
+    margin: 0 auto;
+    width: 40%;
+    color: rgb(133, 119, 119);
+    padding-bottom: 15px;
+}
+/* End Copy*/
+
+
+
+
+/* Utilities */
+.container{
+    max-width :90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    /* background: red ; */
+   
+}
+.flex{
+    display: flex;
+}
+.btn{
+    padding: 1px 10px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 11px;
+    width: 7rem;
+    cursor: pointer;
+    height: 1.9rem;
+    border: none;
+}
+.btn:hover{
+    transform: scale(.90);
+}
+
+.btn-success{
+    background: rgb(108, 153, 108);
+    font-weight: bold;
+    font-size: .95rem;
+}
+.card-item{
+    width: 25%;
+    height: 8rem;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    box-shadow: 2px 2px 15px -6px grey;
+    justify-content: space-between;
+    justify-content: flex-start;
+    padding: 1.5rem;
+}
+
